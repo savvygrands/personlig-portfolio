@@ -17,7 +17,7 @@ function showslide(index) {                 //Funktion
 
 // Flyytar till nästa slide
 nästabutton.addEventListener("click", () => {
-    currentslide = (currentslide + 1) % slides.length; 
+    currentslide = (currentslide + 1) % slides.length; //Kontrollerar att den går till slide 0 efter 2
     showslide(currentslide);
 });
 
